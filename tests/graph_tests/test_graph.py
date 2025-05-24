@@ -1,5 +1,5 @@
 import pytest
-from graph import Graph
+from src.graph import Graph
 
 def test_graph_initialization():
     graph = Graph()
