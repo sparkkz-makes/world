@@ -2,7 +2,7 @@ from graph import Graph
 import shlex
 import re
 
-class Console():
+class Console:
     def __init__(self, graph):
         self.graph = graph
         self.commands = {
@@ -32,6 +32,9 @@ class Console():
                 self.parse_cypher_create(command)
             else:
                 print("Unknown command. Type 'help' for a list of commands.")
+
+    def print_graph():
+        pass
 
 
     def parse_cypher_create(self, command: str):
